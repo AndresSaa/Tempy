@@ -1,4 +1,9 @@
 Tempy
 =====
 
-Small Template System for Javascript
+The smaller template engine for Javascript
+
+``` javascript
+tempy( "Hello {who}!", { who: "world" } );
+// "Hello world!"
+```
