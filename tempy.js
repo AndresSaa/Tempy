@@ -5,5 +5,7 @@
 			html = html.replace( new RegExp( '{'+value+'}', 'g' ), data[value] );
 		return html;
 	};
+	
+	this.tempy = tempy;
 
 }).call(this);
