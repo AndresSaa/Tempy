@@ -12,12 +12,12 @@
 
 }(function(){
 
-	var Tempy = function ( html, data ) {
-		for ( var value in data )
-			html = html.replace( new RegExp( '{'+value+'}', 'g' ), data[value] );
-		return html;
-	};
-	
-	return Tempy;
+    var Tempy = function ( html, data ) {
+        for ( var value in data )
+            html = html.replace( new RegExp( '{'+value+'}', 'g' ), data[value] );
+        return html;
+    };
+    
+    return Tempy;
 
 }));
